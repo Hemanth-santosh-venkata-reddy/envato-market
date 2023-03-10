@@ -18,11 +18,25 @@ section {
   background-color: white;
   min-height: 100vh;
 }
+.container {
+  max-width:1200px; 
+}
+.get h1 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 57px;
+}
+.paragraph p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #90909d;
+  line-height: 27px;
+}
 /* -----------------------------
 header
 -------------------------------- */
 header {
-    background-color: #a570f6;
+  background-color: #a570f6;
 }
 .contact {
   height: 60px;
@@ -52,7 +66,7 @@ i {
   width: 10px;
 }
 
- .links ul {
+.links ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -78,9 +92,9 @@ i {
 }
 
 /* ------------------------------
-sample
+empowering section
 --------------------------------- */
-.hero {
+.empowering {
   background-color: #112047;
   padding-top: 0;
   align-items: center;
@@ -92,10 +106,10 @@ sample
   margin-left: 0;
 }
 .avatar-img-list ul li:nth-child(4) {
-    color: white;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
+  color: white;
+  margin-left: 20px;
+  margin-top: 30px;
+}
 .avatar-img {
   height: 100px;
   width: 100px;
@@ -111,13 +125,13 @@ sample
   height: 90px;
   width: 90px;
 }
-.hero .btn {
+.empowering .btn {
   margin-top: 60px;
 }
 .content p {
   color: white;
 }
-.hero h1 {
+.empowering h1 {
   color: white;
   font-size: 78px;
   font-weight: 700;
@@ -150,45 +164,35 @@ sample
   width: 429px;
   height: 376px;
 }
-/* ------------------
-Hero1
----------------------- */
-
-.get h1 {
-    font-size: 52px;
-    font-weight: 600;
-    line-height: 57px;
-  }
-  .paragraph p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #90909d;
-    line-height: 27px; 
-  }
-.hero1 .card {
-    height: 183px;
-    width: 234px;
-    box-shadow: 0px -2px 13px;
-    position: relative;
-    margin-top: -147px;
+.empowering .card {
+  height: 183px;
+  width: 234px;
+  box-shadow: 0px -2px 13px;
+  /* position: relative; */
+  /* margin-top: -147px; */
+  margin-bottom:-50px;
+  text-align: center;
 }
-.about {
-    margin-top:70px;
+/* ------------------
+about
+---------------------- */ 
+.clients {
+  margin-top: 70px;
 }
 .number-circle {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    /* text-align: center; */
-    font-size: 21.6px;
-    color: white;
-    background: #a570f6;
-    position: absolute;
-    top: -28px;
-    left: 94px;
-    align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: 21.6px;
+  color: white;
+  background: #a570f6;
+  position: absolute;
+  top: -28px;
+  left: 94px;
+  align-items: center;
 }
 .show-information-btn {
   height: 40px;
@@ -201,62 +205,62 @@ Hero1
   padding: 0 12px;
   border-radius: 5px;
 }
+.show-information-btn span i {
+  padding: 5px;
+}
 .women-facing-towards {
-    width: 340px;
-    height: 399px;
-    overflow: hidden;
-    /* border: 1px solid red; */
-    border-radius: 4px;
-    margin-top: 54px;
+  width: 290px;
+  height: 399px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  border-radius: 4px;
+  margin-top: 54px;
 }
 .women-facing-towards img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .women-talking {
-    width: 280px;
-    height: 237px;
-    /* border: 2px solid red; */
-    margin-top: 210px;
-    margin-left: 4px;
-    border-radius: 4px;
-    overflow: hidden;
+  width: 255px;
+  height: 237px;
+  /* border: 2px solid red; */
+  margin-top: 213px;
+  margin-left: 12px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .women-talking img {
-    height: 238px;
-    width: 100%;
-    object-fit: cover;
-}
-.about {
-    margin-left:20px
+  height: 238px;
+  width: 100%;
+  object-fit: cover;
 }
 .user {
-    height: 62px;
-    width: 64px;
-    border: 1px px solid red;
-    border: none;
-    border-radius: 50%;
-    background-color: #a570f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10px;
+  height: 62px;
+  width: 64px;
+  border: 1px px solid red;
+  border: none;
+  border-radius: 50%;
+  background-color: #a570f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
 }
 .sub-title h6 {
   color: #a570f6;
   font-size: 19px;
 }
-.clients {
-    position: absolute;
-    left: 231px;
-    border: 4px solid #a570f6;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: white;
-    top: 67px;
-    height: 143px;
-    width: 291px;
+.clients-number {
+  position: absolute;
+  left: 231px;
+  border: 4px solid #a570f6;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  top: 67px;
+  height: 143px;
+  width: 291px;
 }
 
 .sample-text {
@@ -264,42 +268,28 @@ Hero1
   line-height: 39px;
   font-size: 18px;
 }
-.mistakes {
+.about .arrow {
   color: #a570f6;
-  padding-right: 10px;
+ padding:10px;
 }
 .innovative-instructions h6 {
   color: black;
   padding-left: 10px;
-}
-
-.service-content {
-    padding-top: 117px;
-    margin-bottom: 153px;
 }
 .services {
   color: #a570f6;
   font-size: 18px;
   font-weight: 600;
 }
-
-/* ----------------------
-Hero2
----------------------------- */
-.hero2 {
-  background-color: #f9f9f9;
-}
-
-.specifications {
+.about .card {
   height: 234px;
   width: 319px;
   position: relative;
-  margin-top:-220px;
 }
-.specifications .fa-computer {
+.about .card .computer-icon {
   position: absolute;
   top: -23px;
-  left: 20px;
+  left: 0;
   height: 43px;
   width: 46px;
   border: 1px solid red;
@@ -311,24 +301,52 @@ Hero2
   justify-content: center;
   margin: 0 20px;
 }
+.about .card .card-title {
+  font-size:20px;
+  color:black;
+  font-weight: 600;
+}
+.about .card .pluse-icon {
+  background-color:#a570f6;
+  height:25px;
+  width:25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:10px;
+}
+.about .paragraph .card-text {
+  line-height: 26px;
+  color: black;
+  font-weight: 600;
+}
+
+/* ----------------------
+our-tech section
+---------------------------- */
+.our-tech {
+  background-color: #f9f9f9;
+}
 .tech {
   padding: 100px 0 50px 0;
 }
 .card-img {
   height: 214px;
-  width: 206px;
+  width: 237px;
   /* border:2px solid red; */
   margin: 13px 0;
   overflow: hidden;
 }
-.Specialists {
-  height: 333px;
-  width: 232px;
+.our-tech .card {
+  height: 385px;
+  width: 270px;
 }
 .card-img img {
   height: 210px;
   width: 295px;
-  transform: translatex(-17%);
+  transform: translatex(-13%);
+  object-fit: cover;
 }
 .social i {
   margin: 0 10px;
@@ -342,29 +360,29 @@ Hero2
   padding: 14px;
 }
 .paragraph .role {
-    align-items:center;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 /* --------------------------
-Hero3
+get-in-touch
 ------------------------------ */
 
 .field {
   height: 57px;
-  width: 305px;
+  width: 286px;
   border: 1px solid #dcdada;
 }
 .field-name p {
   margin-bottom: 0;
 }
 .message-field {
-    height: 104px;
-    width: 636px;
+  height: 104px;
+  width: 586px;
   border: 1px solid #dcdada;
 }
 .form-submit-btn {
-  width: 638px;
+  width: 588px;
   height: 40px;
   background-color: #a570f6;
   border: none;
@@ -380,23 +398,24 @@ Hero3
   width: 615px;
 }
 /* ----------------------------
-Hero4
+projects
 -------------------------------- */
-.hero4 {
+.projects {
   background-color: #112047;
 }
 .project-analysis {
   height: 150px;
   background-color: #a570f6;
   padding: 0 50px;
-  margin-top:-131px;
+  margin-top: -131px;
 }
 .project-plans {
   margin-left: 20px;
 }
 .work-gallery {
-    padding-top: 108px;
-    padding-bottom: 45px;}
+  padding-top: 108px;
+  padding-bottom: 20px;
+}
 .project-plans p {
   margin-bottom: 0;
 }
@@ -407,23 +426,23 @@ Hero4
 .work-gallery .services {
   margin-bottom: 0;
 }
-
-/* --------------------------
-Hero5
-------------------------------- */
-.projects {
+.projects .card {
   height: 368px;
   width: 310px;
-  margin-top:-172px;
+  margin-bottom: -372px;
+  position:relative;
 }
 .projects-img {
   height: 368px;
-  width: 313px;
-  /* border:1px solid red; */
+  width: 310px;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  border-radius:4px;
 }
 .projects-img img {
   height: 366px;
-  width: 311px;
+  width: 310px;
+  object-fit:cover;
 }
 .project-farms i {
   background-color: #a570f6;
@@ -445,62 +464,85 @@ Hero5
   margin-left: 10px;
   font-weight: 700;
 }
+
+/* --------------------------
+progress
+------------------------------- */
+
+
 .process {
   padding: 100px 0 50px 0;
 }
 .get .follow {
   font-size: 37px;
 }
-.it-process {
+.process .card {
   height: 232px;
-  width: 235px;
+  width: 100%;
   position: relative;
-  border-radius: 5px;
+  border-radius: 8 px;
 }
 .step-by-step-process {
   height: 232px;
-  width: 235px;
+  width: 275px;
   /* border:1px solid red; */
   overflow: hidden;
+  border-radius: 6px;
 }
 .step-by-step-process img {
   height: 232px;
-  width: 235px;
+  width: 275px;
+  object-fit: cover;
 }
 .square-number {
-    position: absolute;
-    background-color: white;
-    border-radius: 3px;
-    height: 41px;
-    width: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -18px;
-    left: 23px;
-    color: #a570f6;
-    box-shadow: 0px 2px 4px black;
-    font-size: 21px;
-    font-weight: 600;
+  position: absolute;
+  background-color: white;
+  border-radius: 13px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -30px;
+  left: 23px;
+  color: #a570f6;
+  /* box-shadow: 0px 2px 4px black; */
+  font-size: 24px;
+  font-weight: 600;
 }
 /* -----------------------------
-Hero6
+faqs
 ---------------------------------- */
 
-.hero6 .card {
+.faqs .card {
   height: 600px;
   width: 100%;
   border-radius: 4px;
+  position:relative;
+}
+.faqs .play-icon {
+  position: absolute;
+  color: #a570f6;
+  bottom: 0px;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 46%;
+  left: 17%;
+  border-radius: 50%;
 }
 .group-of-people-card {
-    padding:0;
+  padding: 0;
 }
 .more-information {
-    color: #a570f6; 
+  color: #a570f6;
 }
 .got-something {
-    background-color: #f4f5fa;
-    padding:20px;
+  background-color: #f4f5fa;
+  padding: 20px;
 }
 .contrary {
   background-color: white;
@@ -510,14 +552,20 @@ Hero6
 .group-of-people {
   width: 100%;
   /* border: 1px solid red; */
+  border-radius:5px;
+  overflow: hidden;
 }
 .group-of-people img {
   width: 100%;
   height: 600px;
 }
-.applications {
+
+/* -------------------
+blogs section
+--------------------- */
+.blogs .card {
   height: 504px;
-  width: 320px;
+  width: 100%;
   position: relative;
 }
 .technologies {
@@ -530,82 +578,96 @@ Hero6
   width: 100%;
   height: 269px;
 }
-.date {
+.card-date {
   position: absolute;
-  /* bottom:30px;
-    height:30px; */
   background-color: #a570f6;
   padding: 10px;
-  bottom: 228px;
+  bottom: 211px;
   right: 0;
 }
-.date p {
+.card-date p {
   margin-bottom: 0;
   margin-left: 5px;
   color: white;
 }
-.read {
+.read-more-btn {
   font-weight: 600;
   background-color: white;
   border-radius: 4px;
   width: 150px;
-  border: 1px solid #d0cdcd;
+  border: 3px solid #d0cdcd;
   padding: 10px;
+  /* border-color: #a570f6; */
 }
-.fa-arrow-right {
+.read-more-btn+.selected {
+  border-color: #a570f6;
+}
+.read-more-btn span i {
   color: #a570f6;
+  padding:5px;
 }
-
 .send-icon {
-    height: 25px;
-    width: 36px;
-    background-color: #a570f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
+  height: 25px;
+  width: 36px;
+  background-color: #a570f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
 }
-
+/* -------------------------
+Footer
+----------------------------- */
 footer {
   background-color: #0e1e2b;
 }
-footer p,
-h4 {
+footer h5 {
   color: white;
+}
+.footer-content p {
+  font-size: 13px;
+  color: white;
+  font-weight: 200;
+  line-height: 25px;
 }
 footer .fa-phone {
   border-radius: 5px;
 }
 .footer-social-icons ul {
-    list-style: none;
-    display:flex;
-    padding-left:0;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
 }
 .footer-social-icons ul li {
-    background-color:red;
-   background-color: #f7cece;
-    margin-right: 10px;
-    margin-top: 10px;
-    height: 27px;
-    width: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: red;
+  background-color:#26343f;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px;
 }
 
 .footer-img {
-    width: 67px;
-    height: 62px;
-    overflow:hidden;
+  width: 67px;
+  height: 62px;
+  overflow: hidden;
 }
 .footer-img img {
-    width: 64px;
-    height: 56px;
-    object-fit: cover;
+  width: 64px;
+  height: 56px;
+  object-fit: cover;
+}
+footer .calender {
+  color:#a570f6;
+  padding:5px;
 }
 
 .footer-icons {
-    height: 35px;
+  height: 35px;
   width: 35px;
   border: 1px solid red;
   border: none;
@@ -614,17 +676,18 @@ footer .fa-phone {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 20px;  
+  margin: 0 20px;
 }
 .fet p {
   margin-bottom: 0;
 }
-.tearm ul {
-list-style: none;
-display:flex;
-justify-content: space-between;
-color:white;
+.footer-bottom ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
-hr {
-    color:white;
+.footer-bottom {
+  border-top: 1px solid #f9f9f9;
+  padding: 15px 0;
 }
